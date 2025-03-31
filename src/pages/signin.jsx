@@ -64,7 +64,7 @@ const Singin = () => {
               <input
                 type="email"
                 name="username"
-                placeholder="Enter your username"
+                placeholder="Enter your Email"
                 value={formData.username}
                 onChange={handleChange}
                 className="w-full p-3 border border-gray-300 rounded"
