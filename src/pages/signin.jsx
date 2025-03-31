@@ -59,10 +59,10 @@ const Singin = () => {
           <form onSubmit={handleSubmit}>
             <div className="mb-6">
               <label className="block text-orange-400 uppercase text-sm font-medium mb-2">
-                Username
+                Email
               </label>
               <input
-                type="text"
+                type="email"
                 name="username"
                 placeholder="Enter your username"
                 value={formData.username}
